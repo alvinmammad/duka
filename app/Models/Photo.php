@@ -9,8 +9,6 @@ use Illuminate\Database\Eloquent\Relations\MorphTo;
 class Photo extends Model
 {
     use HasFactory;
-
-
     public function photoable(): MorphTo{
         return $this->morphTo();
     }

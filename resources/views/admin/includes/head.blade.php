@@ -1,4 +1,4 @@
-<title>Salero Restaurant Admin | Dashboard</title>
+<title>Duka Admin | Dashboard</title>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="author" content="DexignZone">
@@ -20,12 +20,14 @@
 <link href="{{ asset('assets/vendor/swiper/css/swiper-bundle.min.css') }}" rel="stylesheet" type="text/css" />
 <link href="{{ asset('assets/vendor/datatables/css/jquery.dataTables.min.css') }}" rel="stylesheet" type="text/css" />
 <link href="{{ asset('assets/vendor/swiper/css/swiper-bundle.min.css') }}" rel="stylesheet" type="text/css" />
-<link href="{{ asset('assets/vendor/dotted-map/css/contrib/jquery.smallipop-0.3.0.min.css') }}" rel="stylesheet" type="text/css" />
+<link href="{{ asset('assets/vendor/dotted-map/css/contrib/jquery.smallipop-0.3.0.min.css') }}" rel="stylesheet"
+    type="text/css" />
 <link href="{{ asset('assets/vendor/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css') }}" rel="stylesheet"
     type="text/css" />
 
 
 
 <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet" type="text/css" />
-<link href="{{ asset('assets/vendor/bootstrap-select/dist/css/bootstrap-select.min.css') }}" rel="stylesheet" type="text/css" />
+<link href="{{ asset('assets/vendor/bootstrap-select/dist/css/bootstrap-select.min.css') }}" rel="stylesheet"
+    type="text/css" />
 <link href="{{ asset('assets/css/style.css') }}" rel="stylesheet" type="text/css" />

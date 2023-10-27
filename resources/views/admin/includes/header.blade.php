@@ -807,7 +807,7 @@
 				</div>
 				<div class="copyright">
 					<p class="fs-14"><strong>Salero Restaurant Admin</strong> © 2023 All Rights Reserved</p>
-					<p class="fs-14">Made with <span class="heart"></span> by DexignZone</p>
+					<p class="fs-14">Made with <span class="heart"></span> by @@alvinmammad</p>
 				</div>
 			</div>
 		</div> <!--**********************************

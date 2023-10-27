@@ -11,13 +11,26 @@ class Category extends Model
 {
     use HasFactory;
 
-    public function parent(): BelongsTo
+    public static function tree()
     {
-        return $this->belongsTo(Category::class, 'parent_id'); //get parent category
+        $allCategories = Category::get();
+
+        $rootCategories = $allCategories->whereNull('parent_id');
+
+        self::formatTree($rootCategories, $allCategories);
+
+        return $rootCategories;
     }
-    public function children(): HasMany
+
+    private static function formatTree($categories, $allCategories)
     {
-        return $this->hasMany(Category::class, 'parent_id'); //get all subs. NOT RECURSIVE
+        foreach ($categories as $category) {
+            $category->children = $allCategories->where('parent_id', $category->id)->values();
+
+            if ($category->children->isNotEmpty()) {
+                self::formatTree($category->children, $allCategories);
+            }
+        }
     }
     public function products(): HasMany
     {

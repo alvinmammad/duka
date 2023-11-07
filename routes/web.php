@@ -16,4 +16,10 @@ use App\Http\Controllers\Admin\CategoryController;
 Route::get('/', function () {
     return view('admin.pages.index');
 });
-Route::get('/category',[CategoryController::class,'index'])->name('category.index');
+Route::prefix('admin')->group(function () {
+    Route::get('/category', [CategoryController::class, 'index'])->name('category.index');
+    Route::post('/category/save',[CategoryController::class,'save'])->name('category.save');
+    Route::post('category/{id}/edit', [CategoryController::class, 'edit'])->name('categories.edit');
+    Route::post('category/{id}/move', [CategoryController::class, 'move'])->name('categories.move');
+    Route::delete('category/{id}/delete', [CategoryController::class, 'delete'])->name('category.delete');
+});

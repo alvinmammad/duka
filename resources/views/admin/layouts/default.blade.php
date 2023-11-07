@@ -29,11 +29,15 @@
         Main wrapper start
     ***********************************-->
 	<div id="main-wrapper">
+		
 		@include('admin.includes.header')
 		<!--**********************************
             Content body start
         ***********************************-->
-		@yield('content')
+		<div class="content-body  ">
+			@yield('content')
+		</div>
+		
 		<!--**********************************
             Content body end
         ***********************************-->
@@ -47,7 +51,6 @@
 	<!--**********************************
         Scripts
     ***********************************-->
-
 	@include('admin.includes.foot')
 
 </body>

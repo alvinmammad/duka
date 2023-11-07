@@ -19,6 +19,11 @@ return new class extends Migration
             $table->string('slug');
             $table->timestamps();
         });
+        if(Schema::hasColumn('categories','title')){
+            Schema::table('categories',function (Blueprint $table){
+                $table->dropColumn('title');
+            });
+        }
     }
 
     /**

@@ -1,8 +1,6 @@
 @extends('admin.layouts.default')
 
 @section('content')
-
-<div class="content-body  ">
     <div class="container">
         <div class="row">
             <div class="col-xl-3 col-sm-6">
@@ -136,7 +134,8 @@
                             <span class="d-flex align-items-center me-2">
                                 <svg class="me-2" width="14" height="14" viewBox="0 0 14 14" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
-                                    <rect x="0.108032" y="0.5" width="13" height="13" rx="4" fill="#1921FA" />
+                                    <rect x="0.108032" y="0.5" width="13" height="13" rx="4"
+                                        fill="#1921FA" />
                                 </svg>
                                 Income
                                 <h5 class="mb-0 mx-2">$23,445</h5>
@@ -145,7 +144,8 @@
                             <span class="application d-flex align-items-center ms-me-5 ms-0">
                                 <svg class="me-2" width="14" height="14" viewBox="0 0 14 14" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
-                                    <rect x="0.108032" y="0.5" width="13" height="13" rx="4" fill="#FF3D3D" />
+                                    <rect x="0.108032" y="0.5" width="13" height="13" rx="4"
+                                        fill="#FF3D3D" />
                                 </svg>
                                 Expense
                                 <h5 class="mb-0 mx-2">$8,345</h5>
@@ -215,8 +215,8 @@
                                 </div>
                                 <div class="mb-4">
                                     <div class="progress">
-                                        <div class="progress-bar linear bg-success"
-                                            style="width: 60%; height:13px;" role="progressbar">
+                                        <div class="progress-bar linear bg-success" style="width: 60%; height:13px;"
+                                            role="progressbar">
                                             <span class="sr-only">60% Complete</span>
                                         </div>
 
@@ -236,8 +236,8 @@
                                 </div>
                                 <div>
                                     <div class="progress">
-                                        <div class="progress-bar linear bg-warning"
-                                            style="width: 30%; height:13px;" role="progressbar">
+                                        <div class="progress-bar linear bg-warning" style="width: 30%; height:13px;"
+                                            role="progressbar">
                                             <span class="sr-only">60% Complete</span>
                                         </div>
 
@@ -494,7 +494,8 @@
                         <div class="dz-scroll recent-customer">
                             <ul class="d-flex custome-list">
                                 <li>
-                                    <img src="{{ asset('assets/images/coustomer-img/1.jpg') }}" class="avatar" alt="">
+                                    <img src="{{ asset('assets/images/coustomer-img/1.jpg') }}" class="avatar"
+                                        alt="">
                                 </li>
                                 <li class="ms-2">
                                     <h6 class="mb-0"><a href="javascript:void(0);">James Sukardi</a></h6>
@@ -503,7 +504,8 @@
                             </ul>
                             <ul class="d-flex custome-list">
                                 <li>
-                                    <img src="{{ asset('assets/images/coustomer-img/2.jpg') }}" class="avatar" alt="">
+                                    <img src="{{ asset('assets/images/coustomer-img/2.jpg') }}" class="avatar"
+                                        alt="">
                                 </li>
                                 <li class="ms-2">
                                     <h6 class="mb-0"><a href="javascript:void(0);">Melanie Subarjo</a></h6>
@@ -512,7 +514,8 @@
                             </ul>
                             <ul class="d-flex custome-list">
                                 <li>
-                                    <img src="{{ asset('assets/images/coustomer-img/3.jpg') }}" class="avatar" alt="">
+                                    <img src="{{ asset('assets/images/coustomer-img/3.jpg') }}" class="avatar"
+                                        alt="">
                                 </li>
                                 <li class="ms-2">
                                     <h6 class="mb-0"><a href="javascript:void(0);">Kevin Sandjaja</a></h6>
@@ -521,7 +524,8 @@
                             </ul>
                             <ul class="d-flex custome-list">
                                 <li>
-                                    <img src="{{ asset('assets/images/coustomer-img/4.jpg') }}" class="avatar" alt="">
+                                    <img src="{{ asset('assets/images/coustomer-img/4.jpg') }}" class="avatar"
+                                        alt="">
                                 </li>
                                 <li class="ms-2">
                                     <h6 class="mb-0"><a href="javascript:void(0);">James Sukardi</a></h6>
@@ -530,7 +534,8 @@
                             </ul>
                             <ul class="d-flex custome-list">
                                 <li>
-                                    <img src="{{ asset('assets/images/coustomer-img/1.jpg') }}" class="avatar" alt="">
+                                    <img src="{{ asset('assets/images/coustomer-img/1.jpg') }}" class="avatar"
+                                        alt="">
                                 </li>
                                 <li class="ms-2">
                                     <h6 class="mb-0"><a href="javascript:void(0);">James Sukardi</a></h6>
@@ -539,7 +544,8 @@
                             </ul>
                             <ul class="d-flex custome-list">
                                 <li>
-                                    <img src="{{ asset('assets/images/coustomer-img/2.jpg') }}" class="avatar" alt="">
+                                    <img src="{{ asset('assets/images/coustomer-img/2.jpg') }}" class="avatar"
+                                        alt="">
                                 </li>
                                 <li class="ms-2">
                                     <h6 class="mb-0"><a href="javascript:void(0);">James Sukardi</a></h6>
@@ -642,8 +648,7 @@
                                                             incididunt ut labore et dolore magna aliqua. Ut enim
                                                             ad minim veniam</p>
                                                     </li>
-                                                    <ul
-                                                        class="d-flex align-items-center justify-content-between mb-3">
+                                                    <ul class="d-flex align-items-center justify-content-between mb-3">
                                                         <li class="text-success"><svg width="16" height="17"
                                                                 viewBox="0 0 16 17" fill="none"
                                                                 xmlns="http://www.w3.org/2000/svg">
@@ -689,8 +694,7 @@
                                                         <p class="text-white mt-2">Lorem ipsum dolor sit amet,
                                                             consectetur adipiscing elit.</p>
                                                     </li>
-                                                    <ul
-                                                        class="d-flex align-items-center justify-content-between mb-3">
+                                                    <ul class="d-flex align-items-center justify-content-between mb-3">
                                                         <li class="text-success"><svg width="16" height="17"
                                                                 viewBox="0 0 16 17" fill="none"
                                                                 xmlns="http://www.w3.org/2000/svg">
@@ -743,8 +747,7 @@
                                                             incididunt ut labore et dolore magna aliqua. Ut enim
                                                             ad minim veniam</p>
                                                     </li>
-                                                    <ul
-                                                        class="d-flex align-items-center justify-content-between mb-3">
+                                                    <ul class="d-flex align-items-center justify-content-between mb-3">
                                                         <li class="text-success"><svg width="16" height="17"
                                                                 viewBox="0 0 16 17" fill="none"
                                                                 xmlns="http://www.w3.org/2000/svg">
@@ -790,8 +793,7 @@
                                                         <p class="text-white mt-2">Lorem ipsum dolor sit amet,
                                                             consectetur adipiscing elit</p>
                                                     </li>
-                                                    <ul
-                                                        class="d-flex align-items-center justify-content-between mb-3">
+                                                    <ul class="d-flex align-items-center justify-content-between mb-3">
                                                         <li class="text-success"><svg width="16" height="17"
                                                                 viewBox="0 0 16 17" fill="none"
                                                                 xmlns="http://www.w3.org/2000/svg">
@@ -814,8 +816,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="tab-pane fade" id="menus-tab-pane" role="tabpanel"
-                                aria-labelledby="menus-tab" tabindex="0">
+                            <div class="tab-pane fade" id="menus-tab-pane" role="tabpanel" aria-labelledby="menus-tab"
+                                tabindex="0">
                                 <div class="row">
                                     <div class="col-xl-8 col-md-7 col-sm-6">
                                         <div class="fav-box">
@@ -844,8 +846,7 @@
                                                             incididunt ut labore et dolore magna aliqua. Ut enim
                                                             ad minim veniam</p>
                                                     </li>
-                                                    <ul
-                                                        class="d-flex align-items-center justify-content-between mb-3">
+                                                    <ul class="d-flex align-items-center justify-content-between mb-3">
                                                         <li class="text-success"><svg width="16" height="17"
                                                                 viewBox="0 0 16 17" fill="none"
                                                                 xmlns="http://www.w3.org/2000/svg">
@@ -891,8 +892,7 @@
                                                         <p class="text-white mt-2">Lorem ipsum dolor sit amet,
                                                             consectetur adipiscing elit</p>
                                                     </li>
-                                                    <ul
-                                                        class="d-flex align-items-center justify-content-between mb-3">
+                                                    <ul class="d-flex align-items-center justify-content-between mb-3">
                                                         <li class="text-success"><svg width="16" height="17"
                                                                 viewBox="0 0 16 17" fill="none"
                                                                 xmlns="http://www.w3.org/2000/svg">
@@ -915,8 +915,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="tab-pane fade" id="dinner-tab-pane" role="tabpanel"
-                                aria-labelledby="dinner-tab" tabindex="0">
+                            <div class="tab-pane fade" id="dinner-tab-pane" role="tabpanel" aria-labelledby="dinner-tab"
+                                tabindex="0">
                                 <div class="row">
                                     <div class="col-xl-8 col-md-7 col-sm-6">
                                         <div class="fav-box">
@@ -945,8 +945,7 @@
                                                             incididunt ut labore et dolore magna aliqua. Ut enim
                                                             ad minim veniam</p>
                                                     </li>
-                                                    <ul
-                                                        class="d-flex align-items-center justify-content-between mb-3">
+                                                    <ul class="d-flex align-items-center justify-content-between mb-3">
                                                         <li class="text-success"><svg width="16" height="17"
                                                                 viewBox="0 0 16 17" fill="none"
                                                                 xmlns="http://www.w3.org/2000/svg">
@@ -992,8 +991,7 @@
                                                         <p class="text-white mt-2">Lorem ipsum dolor sit amet,
                                                             consectetur adipiscing elit</p>
                                                     </li>
-                                                    <ul
-                                                        class="d-flex align-items-center justify-content-between mb-3">
+                                                    <ul class="d-flex align-items-center justify-content-between mb-3">
                                                         <li class="text-success"><svg width="16" height="17"
                                                                 viewBox="0 0 16 17" fill="none"
                                                                 xmlns="http://www.w3.org/2000/svg">
@@ -1021,13 +1019,13 @@
                                     <div class="swiper-wrapper">
                                         <div class="swiper-slide">
                                             <div class="swiper-media mb-2">
-                                                <img src="{{ asset('assets/images/favirate-img/3.png') }}" alt="">
+                                                <img src="{{ asset('assets/images/favirate-img/3.png') }}"
+                                                    alt="">
                                             </div>
                                             <div class="swiper-info">
                                                 <h6 class=""><a href="ecom-product-detail.html">Spaghetti
                                                         Italiano With Mozarella Cheese</a></h6>
-                                                <ul
-                                                    class="d-flex align-items-center justify-content-between mb-3">
+                                                <ul class="d-flex align-items-center justify-content-between mb-3">
                                                     <li class="text-success"><svg width="16" height="17"
                                                             viewBox="0 0 16 17" fill="none"
                                                             xmlns="http://www.w3.org/2000/svg">
@@ -1048,13 +1046,13 @@
                                         </div>
                                         <div class="swiper-slide">
                                             <div class="swiper-media mb-2">
-                                                <img src="{{ asset('assets/images/favirate-img/4.png') }}" alt="">
+                                                <img src="{{ asset('assets/images/favirate-img/4.png') }}"
+                                                    alt="">
                                             </div>
                                             <div class="swiper-info">
                                                 <h6 class=""><a href="javascript:void(0)">Sweet Orange Juice
                                                         from Magelang</a></h6>
-                                                <ul
-                                                    class="d-flex align-items-center justify-content-between mb-3">
+                                                <ul class="d-flex align-items-center justify-content-between mb-3">
                                                     <li class="text-success"><svg width="16" height="17"
                                                             viewBox="0 0 16 17" fill="none"
                                                             xmlns="http://www.w3.org/2000/svg">
@@ -1075,13 +1073,13 @@
                                         </div>
                                         <div class="swiper-slide">
                                             <div class="swiper-media mb-2">
-                                                <img src="{{ asset('assets/images/favirate-img/1.png') }}" alt="">
+                                                <img src="{{ asset('assets/images/favirate-img/1.png') }}"
+                                                    alt="">
                                             </div>
                                             <div class="swiper-info">
                                                 <h6 class=""><a href="ecom-product-detail.html">Original Big
                                                         Burger with Extra Spicy </a></h6>
-                                                <ul
-                                                    class="d-flex align-items-center justify-content-between mb-3">
+                                                <ul class="d-flex align-items-center justify-content-between mb-3">
                                                     <li class="text-success"><svg width="16" height="17"
                                                             viewBox="0 0 16 17" fill="none"
                                                             xmlns="http://www.w3.org/2000/svg">
@@ -1102,13 +1100,13 @@
                                         </div>
                                         <div class="swiper-slide">
                                             <div class="swiper-media mb-2">
-                                                <img src="{{ asset('assets/images/favirate-img/3.png') }}" alt="">
+                                                <img src="{{ asset('assets/images/favirate-img/3.png') }}"
+                                                    alt="">
                                             </div>
                                             <div class="swiper-info">
                                                 <h6 class=""><a href="ecom-product-detail.html">Sate Padang
                                                         Daging Ayam Cincang Komplit </a></h6>
-                                                <ul
-                                                    class="d-flex align-items-center justify-content-between mb-3">
+                                                <ul class="d-flex align-items-center justify-content-between mb-3">
                                                     <li class="text-success"><svg width="16" height="17"
                                                             viewBox="0 0 16 17" fill="none"
                                                             xmlns="http://www.w3.org/2000/svg">
@@ -1129,13 +1127,13 @@
                                         </div>
                                         <div class="swiper-slide">
                                             <div class="swiper-media mb-2">
-                                                <img src="{{ asset('assets/images/favirate-img/6.png') }}" alt="">
+                                                <img src="{{ asset('assets/images/favirate-img/6.png') }}"
+                                                    alt="">
                                             </div>
                                             <div class="swiper-info">
                                                 <h6 class=""><a href="ecom-product-detail.html">Medium Fresh
                                                         Salad Less Sugar (All Fruits)</a></h6>
-                                                <ul
-                                                    class="d-flex align-items-center justify-content-between mb-3">
+                                                <ul class="d-flex align-items-center justify-content-between mb-3">
                                                     <li class="text-success"><svg width="16" height="17"
                                                             viewBox="0 0 16 17" fill="none"
                                                             xmlns="http://www.w3.org/2000/svg">
@@ -1156,13 +1154,13 @@
                                         </div>
                                         <div class="swiper-slide">
                                             <div class="swiper-media mb-2">
-                                                <img src="{{ asset('assets/images/favirate-img/3.png') }}" alt="">
+                                                <img src="{{ asset('assets/images/favirate-img/3.png') }}"
+                                                    alt="">
                                             </div>
                                             <div class="swiper-info">
                                                 <h6 class=""><a href="ecom-product-detail.html">Sate Padang
                                                         Daging Ayam Cincang Komplit </a></h6>
-                                                <ul
-                                                    class="d-flex align-items-center justify-content-between mb-3">
+                                                <ul class="d-flex align-items-center justify-content-between mb-3">
                                                     <li class="text-success"><svg width="16" height="17"
                                                             viewBox="0 0 16 17" fill="none"
                                                             xmlns="http://www.w3.org/2000/svg">
@@ -1183,13 +1181,13 @@
                                         </div>
                                         <div class="swiper-slide">
                                             <div class="swiper-media mb-2">
-                                                <img src="{{ asset('assets/images/favirate-img/6.png') }}" alt="">
+                                                <img src="{{ asset('assets/images/favirate-img/6.png') }}"
+                                                    alt="">
                                             </div>
                                             <div class="swiper-info">
                                                 <h6 class=""><a href="ecom-product-detail.html">Medium Fresh
                                                         Salad Less Sugar (All Fruits)</a></h6>
-                                                <ul
-                                                    class="d-flex align-items-center justify-content-between mb-3">
+                                                <ul class="d-flex align-items-center justify-content-between mb-3">
                                                     <li class="text-success"><svg width="16" height="17"
                                                             viewBox="0 0 16 17" fill="none"
                                                             xmlns="http://www.w3.org/2000/svg">
@@ -1218,7 +1216,4 @@
             </div>
         </div>
     </div>
-
-</div>
-
 @stop

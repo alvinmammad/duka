@@ -10,7 +10,7 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
 class Category extends Model
 {
     use HasFactory;
-
+    protected $fillable = ['name','parent_id','slug'];
     public static function tree()
     {
         $allCategories = Category::get();
@@ -32,6 +32,8 @@ class Category extends Model
             }
         }
     }
+
+
     public function products(): HasMany
     {
         return $this->hasMany(Product::class);
